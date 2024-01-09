@@ -1,10 +1,15 @@
 export default function About() {
     return (
       <div>
-        <h1>About Page</h1>
+        <h1>About John Paul Zigterman</h1>
         <p>
-          John Writes Code
+          John is an aspiring fullstack developer with a passion for problem solving and tackling new ideas.
+          That's me by the way, John Zigterman. I got into coding because it seemed like a natural fit
+          after spending years learning about audio engineering and developing my skills in a
+          technical environment. I'm excited to bring my enthusiasm and determination to any
+          new adventure, and always work hard to see the best possible outcome.
         </p>
+        <img src={"../johnpaul.jpg"} width="400" height="300"></img>
       </div>
     );
   }
