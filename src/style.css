@@ -1,3 +1,44 @@
+main { 
+    background-color:rgb(134, 201, 255);
+    background-size: 10px 10px;
+    background-image:
+    linear-gradient(to right, black, 2px, transparent 1px),
+    linear-gradient(to bottom, black 2px, transparent 1px);
+    margin-left: 1%;
+}
+
+nav {
+    background-color: rgb(201, 234, 255);
+}
+
+main card {
+    background-color: antiquewhite;
+}
+
 img {
+    border: 2px black solid;
     box-shadow: 5px 5px 5px;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.card-header {
+    border: 2px solid black;
+}
+
+.card-body {
+    border: 2px solid black;
+    border-top: none;
+}
+
+.card-footer {
+    border: 2px solid black;
+    border-top: none;
+}
+
+#profile-card {
+    margin-top: 10px;
 }
