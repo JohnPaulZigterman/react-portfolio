@@ -1,10 +1,10 @@
 export default function About() {
     return (
-      <div class="card w-50" id="profile-card">
-        <div class="card-header">
+      <div className="card w-50" id="profile-card">
+        <div className="card-header">
         <h1>About John Paul Zigterman</h1>
         </div>
-        <div class="card-body">
+        <div className="card-body">
         <p>
           John is an aspiring fullstack developer with a passion for problem solving and tackling new ideas.
           That's me by the way, John Zigterman. I got into coding because it seemed like a natural fit

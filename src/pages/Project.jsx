@@ -4,14 +4,14 @@ import "../style.css";
 function Project(props) {
     return (
         props.projects.map((project) => (
-        <div class="card w-25">
-          <div class="card-header">
+        <div className="card w-25">
+          <div className="card-header">
             <h2>{project.name}</h2>
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <img src={project.img} width="300" height="200"></img>
           </div>
-          <div class="card-footer">
+          <div className="card-footer">
             <a href={project.github}>See The GitHub Repository</a>
             <br></br>
             <a href={project.live}>See The Deployed Application</a>

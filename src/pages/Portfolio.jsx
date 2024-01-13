@@ -43,17 +43,17 @@ const projects = [
 function Portfolio() {
     return (
       <div>
-        <div class="card w-50">
-          <div class="card-header">
+        <div className="card w-50">
+          <div className="card-header">
             <h1>Portfolio Page</h1>
           </div>
-          <div class="card-body">
+          <div className="card-body">
             <p>
               Just A Sample Of Projects I've Completed
             </p>
           </div>
         </div>
-        <div class="d-flex flex-row flex-wrap">
+        <div className="d-flex flex-row flex-wrap">
           <Project projects={projects} />
         </div>
       </div>
