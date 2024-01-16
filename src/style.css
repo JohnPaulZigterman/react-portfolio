@@ -8,7 +8,11 @@ main {
 }
 
 nav {
-    background-color: rgb(201, 234, 255);
+    background-color: rgb(69, 184, 255);
+}
+
+.nav-link {
+    color: black;
 }
 
 main card {
@@ -18,6 +22,17 @@ main card {
 img {
     border: 2px black solid;
     box-shadow: 5px 5px 5px;
+}
+
+#footer {
+    background-color: cornsilk;
+    border: solid 2px black;
+}
+
+#resume-card {
+    border: solid 5px black;
+    padding: 5px;
+    margin: 5px;
 }
 
 .card {
