@@ -51,15 +51,15 @@ function Contact() {
         <form id="contact-form" onSubmit={handleSubmit}>
           <div className='field'>
             <label className='label' htmlFor='name'>Name</label>
-            <input className='input' type='text' name='name' defaultValue={name} onBlur={handleChange} />
+            <input id='name' className='input' type='text' name='name' defaultValue={name} onBlur={handleChange} />
           </div>
           <div className='field'>
             <label className='label' htmlFor='email'>Email Address</label>
-            <input className='input' type='email' defaultValue={email} onBlur={handleChange} />
+            <input id='email' className='input' type='email' defaultValue={email} onBlur={handleChange} />
           </div>
           <div className="field">
             <label className="label" htmlFor="message">Message</label>
-            <textarea className="textarea" name="message" rows="3" defaultValue={message} onBlur={handleChange} />
+            <textarea className="textarea" id="message" rows="3" defaultValue={message} onBlur={handleChange} />
           </div>
           {errorMessage && (
             <div>

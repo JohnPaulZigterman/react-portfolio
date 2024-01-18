@@ -3,8 +3,8 @@ import "../style.css";
 
 function Project(props) {
     return (
-        props.projects.map((project) => (
-        <div className="card w-25">
+        props.projects.map((project, index) => (
+        <div className="card w-25" key={index}>
           <div className="card-header">
             <h2>{project.name}</h2>
           </div>
