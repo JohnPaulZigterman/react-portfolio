@@ -1,0 +1,1 @@
+[build] command = "vite build" build = "build"
