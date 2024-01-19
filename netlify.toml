@@ -1,0 +1,14 @@
+[build]
+command = “npm run build”
+publish = “/dist”
+
+[functions]
+node_bundler = “esbuild”
+
+[context.production.environment]
+VITE_DOMAIN = “api_url_domain”
+
+[[redirects]]
+from = “/*”
+to = “/index.html”
+status = 200
